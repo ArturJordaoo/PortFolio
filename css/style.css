@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: verdana, sans-serif;
+}
+h1 {
+  margin-top: 0;
+}
+.top-container {
+  background-color: #d1c2a5;
+  padding-top: 100px;
+  position: relative;
+}
+.keyboard-b {
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  left: 140px;
+  
+}
+.keyboard-a{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+
