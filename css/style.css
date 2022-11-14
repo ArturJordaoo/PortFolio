@@ -40,6 +40,12 @@ h3 {
   margin: 100px auto 100px auto;
   line-height: 2;
 }
+#projects-text{
+  text-align: justify;
+}
+#button-projects{
+  text-align:center;
+}
 .htmlgif{
   float:left;
   width: 18%;
