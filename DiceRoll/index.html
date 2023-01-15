@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Jogo do Dado</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+	<head>
+		<meta charset="utf-8" />
+		<title>Jogo do Dado</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Aperte o botão para jogar</h1>
 
-  </head>
-  <body>
+			<div class="dice">
+				<p>Jogador 1</p>
+				<img class="img1" src="images/dice6.png" />
+			</div>
 
-    <div class="container">
-      <h1>Atualize a Página</h1>
+			<div class="dice">
+				<p>Jogador 2</p>
+				<img class="img2" src="images/dice6.png" />
+			</div>
+			<div type="button" class="btn" target="_blank">
+				<a>JOGAR</a>
+			</div>
+		</div>
 
-      <div class="dice">
-        <p>Jogador 1</p>
-        <img class="img1" src="images/dice6.png">
-      </div>
-
-      <div class="dice">
-        <p>Jogador 2</p>
-        <img class="img2" src="images/dice6.png">
-      </div>
-
-    </div>
-
-    <script src="random.js" charset="utf-8"></script>
-
-      </body>
-
-      
-    </html>
+		<script
+			src="https://code.jquery.com/jquery-3.6.3.js"
+			integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+			crossorigin="anonymous"
+		></script>
+		<script src="random.js" charset="utf-8"></script>
+	</body>
+</html>
